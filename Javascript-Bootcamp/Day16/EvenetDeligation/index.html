@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Deligation</title>
+</head><style>
+    div{
+        border: 2px solid black;
+        padding: 30px;
+    }
+    section{
+        margin: 20 px auto;
+        border: 2 px solid black;
+        width: 80vw;
+        color: seagreen;
+    }
+    button{
+        padding: 3rem;
+        background-color: aqua;
+    }
+    span{
+        border: 2px solid black;
+    }
+</style>
+<body>
+    <div id="grandparent">
+        <div id="parent">
+            <div id="child">
+
+            </div>
+        </div>
+    </div>
+
+    <section>Click Here
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>10</button>
+        <span>This is span </span>
+        <span>This is another span</span>
+        <span>This is next span</span>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

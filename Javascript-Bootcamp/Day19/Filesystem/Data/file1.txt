@@ -1,0 +1,2 @@
+This is file one
+this file is added my me.We are writing this data using fs module
